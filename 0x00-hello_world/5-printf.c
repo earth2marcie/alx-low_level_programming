@@ -1,9 +1,9 @@
-#!/bin/bash
 #include <stdio.h>
+
 /**
- * main - entry point
- * My hello.print task
- * Return: return 1 after program execution
+ * main - Entry point
+ * 
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
