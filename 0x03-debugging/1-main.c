@@ -14,7 +14,7 @@ printf("infinite loop incoming :(\n");
 i = 0;
 
   /*
-   * while (i c 10)
+   * while (i < 10)
    * {
    * putcher(i);
    * }
