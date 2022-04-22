@@ -1,3 +1,5 @@
+#include "holberton.h"
+
 /**
  * print_number - Prints an integer.
  * @n: The integer to be printed.
@@ -16,4 +18,5 @@ void print_number(int n)
 	if ((num / 10) > 0)
 		print_number(num / 10);
 
-	_putchar((num % 10) + 
+	_putchar((num % 10) + '0');
+}
