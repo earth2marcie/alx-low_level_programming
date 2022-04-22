@@ -1,23 +1,25 @@
-#include "main.h"
-#include <stdio.h>
-
 /**
- * main - check the code for ALX School students.
- *
- * Return: Always 0.
- */
+*_strcat - function that concatenates teo strings
+*     two strings.
+*
+@dest: pointer to destination input
+@src: pointer to source input
+*
+Return: pointer to resulting string
+@dest
+*/
 
-int main(void)
+char *_strcat(char *dest, char *src)
 {
-char sl[98] = "Hello";
-char s2[] = "World!\n";
-char *ptr;
-
-printf("%s", s1);
-printf("%s", s2);
-ptr = _strcat(s1, s2);
-printf("%s", s1);
-printf("%s", s2);
-printf("%s", ptr);
-return (0);
-}
+int c, c2
+c = 0
+/*find the size of dest array*/
+while (dest[c])
+c++;
+/*iterate through each src array value without the null byte*/
+for (c2 = 0, src[c2]; c2++)
+/*append src[c2] to dest[c] while overwritting the null byte in dest*/
+dest[c++] = src[c2];
+return (dest);
+}    
+    
