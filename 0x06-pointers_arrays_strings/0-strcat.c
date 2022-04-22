@@ -1,6 +1,7 @@
 /** 
-* _strcat - function that concatenates two strings.
-* 
+* _strcat - function that concatenates 
+*          two strings.
+*
 * @dest: pointer to destination output
 * @src: pointer to source output
 *
