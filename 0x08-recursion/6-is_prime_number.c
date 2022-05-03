@@ -39,6 +39,5 @@ int is_prime_number(int n)
 	if (n >= 2 && n <= 3)
 		return (1);
 
-	return (is_divisible(n,  
-		
-}				
+	return (is_divisible(n, div));
+}
